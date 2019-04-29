@@ -16,5 +16,11 @@
     "url": "https://github.com/chumpon-asaneerat/node-combile-modules-sample/issues"
   },
   "homepage": "https://github.com/chumpon-asaneerat/node-combile-modules-sample#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@types/gulp": "^4.0.6",
+    "gulp": "^4.0.1",
+    "gulp-jsdoc3": "^2.0.0",
+    "jsdoc": "^3.5.5"
+  }
 }
