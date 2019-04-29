@@ -15,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/chumpon-asaneerat/node-combile-modules-sample/issues"
   },
-  "homepage": "https://github.com/chumpon-asaneerat/node-combile-modules-sample#readme"
+  "homepage": "https://github.com/chumpon-asaneerat/node-combile-modules-sample#readme",
+  "dependencies": {}
 }
