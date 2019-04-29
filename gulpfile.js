@@ -11,7 +11,7 @@ gulp.task('build-doc', (cb) => {
         src: [
             path.join(__dirname, 'src/**/*.js')
         ],
-        dest: path.join(__dirname, 'dist/client/js/doc/')
+        dest: path.join(__dirname, 'dist/doc/')
     };
     return task.task(cb);
 });
@@ -19,7 +19,15 @@ gulp.task('build-doc', (cb) => {
 gulp.task('clear-doc', () => {
     let task = new GulpClean();
     task.opts = {
-        src: path.join(__dirname, 'dist/client/js/doc/**/*')
+        src: path.join(__dirname, 'dist/doc/**/*')
+    };
+    return task.task();
+});
+
+gulp.task('clear-dist', () => {
+    let task = new GulpClean();
+    task.opts = {
+        src: path.join(__dirname, 'dist/**/*')
     };
     return task.task();
 });
