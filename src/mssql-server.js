@@ -7,7 +7,7 @@ class MSSqlServer {
      * @returns Returns new instance of MSSqlDb class.
      */
     constructor() {
-        console.log('MSSqlServer::ctor() => ', nlib);
+        console.log('MSSqlServer::ctor()');
     };
 };
 
@@ -20,7 +20,7 @@ class MSSqlDb {
      * @returns Returns new instance of MSSqlDb class.
      */
     constructor() {
-        console.log('MSSqlDb::ctor() => ', nlib);
+        console.log('MSSqlDb::ctor()');
     };
 };
 

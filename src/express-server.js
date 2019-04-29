@@ -7,7 +7,7 @@ class ExpressServer {
      * @return {ExpressServer} Returns new instance of ExpressServer class
      */
     constructor() {
-        console.log('ExpressServer::ctor() => ', nlib);
+        console.log('ExpressServer::ctor()');
     }
     /**
      * Setup server options.
@@ -33,7 +33,7 @@ class ExpressRouter {
      * @return {ExpressRouter} Returns new instance of ExpressRouter class
      */
     constructor() {
-        console.log('ExpressRouter::ctor() => ', nlib);
+        console.log('ExpressRouter::ctor()');
     };
 };
 
